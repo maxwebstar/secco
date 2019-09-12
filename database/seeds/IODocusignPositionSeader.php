@@ -1,0 +1,278 @@
+<?php
+
+use Illuminate\Database\Seeder;
+use Carbon\Carbon;
+
+class IODocusignPositionSeader extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+
+        DB::table('io_docusign_position')->insert([
+            'name' => 'SignHere',
+            'secco_string' => 'conditions shall govern the Agreement.',
+            'secco_units' => 'pixels',
+            'secco_x_offset' => 57,
+            'secco_y_offset' => 128,
+            'client_string' => 'conditions shall govern the Agreement.',
+            'client_units' => 'pixels',
+            'client_x_offset' => 415,
+            'client_y_offset' => 128,
+            'type' => 'sign_here',
+            'template_id' => 2,
+            'position' => 1,
+            'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+        DB::table('io_docusign_position')->insert([
+            'name' => 'FullName',
+            'secco_string' => 'conditions shall govern the Agreement.',
+            'secco_units' => 'pixels',
+            'secco_x_offset' => 57,
+            'secco_y_offset' => 165,
+            'client_string' => 'conditions shall govern the Agreement.',
+            'client_units' => 'pixels',
+            'client_x_offset' => 415,
+            'client_y_offset' => 165,
+            'type' => 'full_name',
+            'template_id' => 2,
+            'position' => 2,
+            'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+        DB::table('io_docusign_position')->insert([
+            'name' => 'Title',
+            'secco_string' => 'conditions shall govern the Agreement.',
+            'secco_units' => 'pixels',
+            'secco_x_offset' => 57,
+            'secco_y_offset' => 210,
+            'client_string' => 'conditions shall govern the Agreement.',
+            'client_units' => 'pixels',
+            'client_x_offset' => 415,
+            'client_y_offset' => 210,
+            'type' => 'title',
+            'template_id' => 2,
+            'position' => 3,
+            'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+        DB::table('io_docusign_position')->insert([
+            'name' => 'DateSigned',
+            'secco_string' => 'conditions shall govern the Agreement.',
+            'secco_units' => 'pixels',
+            'secco_x_offset' => 57,
+            'secco_y_offset' => 265,
+            'client_string' => 'conditions shall govern the Agreement.',
+            'client_units' => 'pixels',
+            'client_x_offset' => 415,
+            'client_y_offset' => 265,
+            'type' => 'date_signed',
+            'template_id' => 2,
+            'position' => 4,
+            'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+
+
+        DB::table('io_docusign_position')->insert([
+            'name' => 'SignHere',
+            'secco_string' => 'conditions shall govern the Agreement.',
+            'secco_units' => 'pixels',
+            'secco_x_offset' => 37,
+            'secco_y_offset' => 108,
+            'client_string' => 'conditions shall govern the Agreement.',
+            'client_units' => 'pixels',
+            'client_x_offset' => 395,
+            'client_y_offset' => 108,
+            'type' => 'sign_here',
+            'template_id' => 3,
+            'position' => 1,
+            'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+        DB::table('io_docusign_position')->insert([
+            'name' => 'FullName',
+            'secco_string' => 'conditions shall govern the Agreement.',
+            'secco_units' => 'pixels',
+            'secco_x_offset' => 37,
+            'secco_y_offset' => 150,
+            'client_string' => 'conditions shall govern the Agreement.',
+            'client_units' => 'pixels',
+            'client_x_offset' => 395,
+            'client_y_offset' => 150,
+            'type' => 'full_name',
+            'template_id' => 3,
+            'position' => 2,
+            'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+        DB::table('io_docusign_position')->insert([
+            'name' => 'Title',
+            'secco_string' => 'conditions shall govern the Agreement.',
+            'secco_units' => 'pixels',
+            'secco_x_offset' => 37,
+            'secco_y_offset' => 195,
+            'client_string' => 'conditions shall govern the Agreement.',
+            'client_units' => 'pixels',
+            'client_x_offset' => 395,
+            'client_y_offset' => 195,
+            'type' => 'title',
+            'template_id' => 3,
+            'position' => 3,
+            'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+        DB::table('io_docusign_position')->insert([
+            'name' => 'DateSigned',
+            'secco_string' => 'conditions shall govern the Agreement.',
+            'secco_units' => 'pixels',
+            'secco_x_offset' => 37,
+            'secco_y_offset' => 248,
+            'client_string' => 'conditions shall govern the Agreement.',
+            'client_units' => 'pixels',
+            'client_x_offset' => 395,
+            'client_y_offset' => 248,
+            'type' => 'date_signed',
+            'template_id' => 3,
+            'position' => 4,
+            'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+
+        DB::table('io_docusign_position')->insert([
+            'name' => 'SignHere',
+            'secco_string' => 'conditions shall govern the Agreement.',
+            'secco_units' => 'pixels',
+            'secco_x_offset' => 67,
+            'secco_y_offset' => 123,
+            'client_string' => 'conditions shall govern the Agreement.',
+            'client_units' => 'pixels',
+            'client_x_offset' => 425,
+            'client_y_offset' => 123,
+            'type' => 'sign_here',
+            'template_id' => 1,
+            'position' => 1,
+            'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+        DB::table('io_docusign_position')->insert([
+            'name' => 'FullName',
+            'secco_string' => 'conditions shall govern the Agreement.',
+            'secco_units' => 'pixels',
+            'secco_x_offset' => 67,
+            'secco_y_offset' => 165,
+            'client_string' => 'conditions shall govern the Agreement.',
+            'client_units' => 'pixels',
+            'client_x_offset' => 425,
+            'client_y_offset' => 165,
+            'type' => 'full_name',
+            'template_id' => 1,
+            'position' => 2,
+            'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+        DB::table('io_docusign_position')->insert([
+            'name' => 'Title',
+            'secco_string' => 'conditions shall govern the Agreement.',
+            'secco_units' => 'pixels',
+            'secco_x_offset' => 67,
+            'secco_y_offset' => 211,
+            'client_string' => 'conditions shall govern the Agreement.',
+            'client_units' => 'pixels',
+            'client_x_offset' => 425,
+            'client_y_offset' => 211,
+            'type' => 'title',
+            'template_id' => 1,
+            'position' => 3,
+            'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+        DB::table('io_docusign_position')->insert([
+            'name' => 'DateSigned',
+            'secco_string' => 'conditions shall govern the Agreement.',
+            'secco_units' => 'pixels',
+            'secco_x_offset' => 67,
+            'secco_y_offset' => 265,
+            'client_string' => 'conditions shall govern the Agreement.',
+            'client_units' => 'pixels',
+            'client_x_offset' => 425,
+            'client_y_offset' => 265,
+            'type' => 'date_signed',
+            'template_id' => 1,
+            'position' => 4,
+            'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+
+        DB::table('io_docusign_position')->insert([
+            'name' => 'SignHere',
+            'secco_string' => 'conditions shall govern the Agreement.',
+            'secco_units' => 'pixels',
+            'secco_x_offset' => 67,
+            'secco_y_offset' => 123,
+            'client_string' => 'conditions shall govern the Agreement.',
+            'client_units' => 'pixels',
+            'client_x_offset' => 425,
+            'client_y_offset' => 123,
+            'type' => 'sign_here',
+            'template_id' => 4,
+            'position' => 1,
+            'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+        DB::table('io_docusign_position')->insert([
+            'name' => 'FullName',
+            'secco_string' => 'conditions shall govern the Agreement.',
+            'secco_units' => 'pixels',
+            'secco_x_offset' => 67,
+            'secco_y_offset' => 165,
+            'client_string' => 'conditions shall govern the Agreement.',
+            'client_units' => 'pixels',
+            'client_x_offset' => 425,
+            'client_y_offset' => 165,
+            'type' => 'full_name',
+            'template_id' => 4,
+            'position' => 2,
+            'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+        DB::table('io_docusign_position')->insert([
+            'name' => 'Title',
+            'secco_string' => 'conditions shall govern the Agreement.',
+            'secco_units' => 'pixels',
+            'secco_x_offset' => 67,
+            'secco_y_offset' => 211,
+            'client_string' => 'conditions shall govern the Agreement.',
+            'client_units' => 'pixels',
+            'client_x_offset' => 425,
+            'client_y_offset' => 211,
+            'type' => 'title',
+            'template_id' => 4,
+            'position' => 3,
+            'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+        DB::table('io_docusign_position')->insert([
+            'name' => 'DateSigned',
+            'secco_string' => 'conditions shall govern the Agreement.',
+            'secco_units' => 'pixels',
+            'secco_x_offset' => 67,
+            'secco_y_offset' => 265,
+            'client_string' => 'conditions shall govern the Agreement.',
+            'client_units' => 'pixels',
+            'client_x_offset' => 425,
+            'client_y_offset' => 265,
+            'type' => 'date_signed',
+            'template_id' => 4,
+            'position' => 4,
+            'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+
+    }
+}

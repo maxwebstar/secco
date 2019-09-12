@@ -1,0 +1,27 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~datatables-bootstrap3-plugin/media/css/datatables-bootstrap3.css";
+
+// Font Awesome
+@import "~font-awesome/css/font-awesome.min.css";
+
+// import admin lte css
+@import "~select2/dist/css/select2.min.css";
+@import "~admin-lte/dist/css/AdminLTE.css";
+@import "~admin-lte/dist/css/skins/_all-skins.css";
+
+// jQuerty UI
+@import "~jquery-ui/themes/base/core.css";
+@import "~jquery-ui/themes/base/base.css";
+@import "~jquery-ui/themes/base/theme.css";
+@import "~jquery-ui/themes/base/datepicker.css";
+@import "~jquery-ui/themes/base/autocomplete.css";
+
+@import "~@fancyapps/fancybox/src/css/core.css";

@@ -1,0 +1,14 @@
+{
+    "/js/admin/app.js": "/js/admin/app.js",
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/clear.css": "/css/clear.css",
+    "/css/admin/app.css": "/css/admin/app.css",
+    "/js/admin/tinymce.js": "/js/admin/tinymce.js",
+    "/js/clear.js": "/js/clear.js",
+    "/js/admin/datatable.js": "/js/admin/datatable.js",
+    "/js/admin/select2.js": "/js/admin/select2.js",
+    "/js/admin/fancybox.js": "/js/admin/fancybox.js",
+    "/js/admin/dropzone.min.js": "/js/admin/dropzone.min.js",
+    "/css/admin/dropzone.min.css": "/css/admin/dropzone.min.css"
+}

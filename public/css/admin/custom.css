@@ -1,0 +1,82 @@
+.icon-green{ color: #00a65a; }
+.icon-red{ color: #cc0000; }
+.icon-yellow{ color: #f39c12; }
+.box-small-icon{ font-size: 28px; }
+
+.cursor-pointer{ cursor: pointer }
+
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header {
+    height: 85px;
+}
+
+.dashboard-button .info-box-icon{
+    height: 75px;
+    line-height: 75px;
+}
+.dashboard-button.info-box{
+    min-height: 75px;
+}
+.dashboard-button.bg-orange{
+    background-color: #E56E28;
+}
+.dashboard-button.bg-yellow{
+    background-color: #F5BE41;
+}
+.dashboard-button.bg-blue{
+    background-color: #5694D0;
+}
+.dashboard-button.bg-green{
+    background-color: #63A445;
+}
+.dashboard-box-orange-light{
+    background: linear-gradient(to bottom, #D9976D, #DB6823);
+}
+.dashboard-box-grey-light{
+    background-color: #ABBCDC;
+}
+
+#block-traffic label.checkbox-inline{
+    width: 100px;
+}
+#block-restricted-option label.checkbox-inline{
+    margin-right: 15px;
+}
+#block-head-billing label{
+    margin-left: 10px;
+    color: #9B9B9B;
+}
+.title-io-part{
+
+}
+#modal-gov-exist .modal-dialog{
+    width: 75%;
+}
+.btn-margin-right{
+    margin-right: 10px;
+}
+.btn-margin-top{
+    margin-top: 5px;
+}
+
+.modal-open .ui-datepicker {
+    z-index: 1151 !important;
+}
+
+.table-io-view .param-label{
+    padding-left: 30px;
+}
+
+#block-traffic-ppc label.checkbox-inline{
+    margin-right: 15px;
+    margin-left: 0px;
+}
+
+.disable-block{
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.box-body-title{
+    background-color:#f7f7f7; font-size: 18px; text-align: center; padding: 7px 10px; margin-top: 0;
+}
+

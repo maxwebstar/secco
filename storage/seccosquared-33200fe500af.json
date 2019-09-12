@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "seccosquared-220919",
+  "private_key_id": "33200fe500af57acfbcda1a5d707aec692594641",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC/+Kpp98mgl6TU\nlobsKreY4iyfa21GGBDlwuOGiIJOSJ5Pk19mkp9G6NjG2QJbC0xqUxA8RBYUdpd+\nK8qZB55sYi9Yl4WJq/mI5ARSewvItlUFo7IgEAl+9YyS9y6wqnSbnISH9MUTak1f\nusB8rRVUR/nydYl2yfK4WHWbx+MrAk33Vw6tnque3g1rj3ZB8qpGeVQfgM+Nqoiw\nHQ+FGEcxjxpTnKBBRHc+J8+tKKsuPP/lKDbjAHyfQN7WbHT9hLiTNGUWC+KFH2if\nNVfwS1e2+gTBRUh2EtlSV3ITx8iwDNJ4UbkWXVwt347lbctwz1D5Q5wdsLUSylEk\nWn+LTXEZAgMBAAECggEAAMsT5HUYx+cH7Kvt02TlpZ8MAx8A5JgSfos64egtURO4\nMDKC0KH9b/xj9ydHTZV0S2Ib5P3u4ufyQJwb8COTxcq8Jip1YjbsAj0Zo+qmi+O0\n/ogVJ+gFgNa6n8IIGW88EgwaC/NoK0vG745VaST/u6N/6Q9lDngDnE7PfjJXCTvJ\nvaws84WD9SXhuTuh7xw+st+1rUEKO+KfVoHXuz7momI8jr5rl50Fiq6NGwTEng6E\nw7EBhXTvRF7lccEkr+EiHeeVi+GibeU1XfbWeW4vNnuH1VSXxfzlE+UIaUEqtO1X\n0hnd2hsFspNstwi0v7fi8UqzVJmJmWx0yW48CfxzwQKBgQDnZ/NJqDn/hdwpIOTM\nRY3ofwL0j8po1ohcZQ7s5WH1hXkw5aLQQTO/IGh8a4luw/MAM8zIufGjueVBwDVO\ns+vMUu85DeLwnOAZ1qbXicr1y4pNlqelmHQ2SlU51tawFjA5kTxu1GA5Wlo3YSLt\n1mpzviGrTI8+I5/fvGubNvYDFwKBgQDUX8ikQc0Tu64Xi1hn0C5AF2Q1Dq9Sp56Q\n5ar4AIPOf0njdhWS1t9P7IEREnoMXuwGAZv25VYBZSIpE1lkntgEILFidDUvaSZg\ngsLiLXDuCH4xB+b0u4R936Q9xza8A2hasEWCcQ6wBSfnHkH3z24c0T8uiZaQJNHy\nSIIW0ROLTwKBgEnaTzcOzZPTcPRfXyYifKva/WJ4Ea1r6pEyX5UTkDP/qTIF1/SH\nGrDA8xfiajZDq2ZBIfZeAdSzG4vkgB7iJTtMrLSUzfzk1FDqxMy9WV0g3L7uegrL\noStChfizrEj+i92TkKn+dcdYIrrR8YfeipLt92joQj8et4N8awtaeyF5AoGBAJi1\nq1vZaPKYkO2jKFW1z5wMdeTlA1LG7vE4BIFCNYUF6IakAY1N7tPUt1YkWBiPJN6I\nx7J4ZCiqpS6uGCiPQ7tsGsE12IyX6p2ZSTNEA6FWAA+XpA40zGeKqdo2Zng5Zw9X\nExRh4XLWskOxcTQVNxOHrwvyqY5Ku6ChXNG1U31nAoGAQnInfJZr+U/wbnZygLu7\nMgTejjWet6dsACLjvoZ3On4I8MaTNTnk5Kr/D+JWjT0kQHRDjKbMIRr+9AAQByDV\nzkWF2Ngtzswi1A5TlHFT4OSM+g29MKU8qPzAUkUhiT7j8MMjai3RehEM/1OnqBNe\nwKHkjVh0JPrahn1NK2QAY2g=\n-----END PRIVATE KEY-----\n",
+  "client_email": "seccosquared@seccosquared-220919.iam.gserviceaccount.com",
+  "client_id": "107450693582294341075",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/seccosquared%40seccosquared-220919.iam.gserviceaccount.com"
+}
